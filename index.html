@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Loan Calculator</title>
+</head>
+<body>
+
+    <div id="main">
+        <div class="main-container">
+            <div id="box">
+                <div class="box-container">
+                    <!-- heading -->
+                    <div class="heading">
+                        <h1>Loan Calculator</h1>
+                    </div>
+                    <!-- loan-form -->
+                    <form action="" id="form">
+                        <div class="form-area">
+                            <span>$</span>
+                            <input type="number" name="amount" id="amount">
+                        </div>
+                        <div class="form-area">
+                            <span>%</span>
+                            <input type="number" name="interest" id="interest">
+                        </div>
+                        <div class="form-area">
+                            <input type="number" name="time" id="time">
+                        </div>
+                        <div class="form-area">
+                            <input class="btn" type="button" value="Calculate">
+                        </div>
+                    </form>
+
+                    
+                    <!-- loader -->
+                    <div id="load">
+                        <div class="loading">
+                        <img src="loading.gif" alt="">
+                        </div>  
+                    </div>
+
+
+                    <!-- results -->
+                    <div id="results">
+                        <!-- heading -->
+                        <div class="r-heading">
+                            <h3>Results</h3>
+                        </div>
+                        <!-- loan-form -->
+                        <form action="" id="form">
+                            <div class="form-area">
+                                <span>Monthly Payment</span>
+                                <input type="number" name="monthly" id="monthly">
+                            </div>
+                            <div class="form-area">
+                                <span>Total Payment</span>
+                                <input type="number" name="total" id="total">
+                            </div>
+                            <div class="form-area">
+                                <input type="number" name="t-interest" id="t-interest">
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
