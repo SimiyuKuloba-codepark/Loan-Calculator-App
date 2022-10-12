@@ -12,6 +12,8 @@
     --background-primary: rgba(90, 7, 32, 0.65);
     --backgrounds-primary: rgba(226, 61, 110, 0.904);
     --background-light: rgba(245, 245, 240, 0.4);
+    --danger-color: rgb(245, 84, 84);
+    --success-color: #28a745;
 }
 
 /* OVERAL DISPLAY */
@@ -31,6 +33,18 @@ a{
 ul{
     list-style: none;
 }
+
+.alert{
+    font-size: .7rem;
+    padding: .3rem .5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.danger{ background: var(--danger-color); }
+
+.success{ background: var(--success-color); }
+
 
 
 /* BUTTONS */
